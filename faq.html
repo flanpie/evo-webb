@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"> 
+
+<!--Head - Title is what appears in the tab / stylesheet connection goes here too---> 	
+<head>
+<title>Evolution Training and Coaching</title>
+<meta charset="iso-8859-1">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1200, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+</head>
+
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+
+
+    </div>
+      <img src="images/Logo.png" alt="" width="400px"> <!--- logo goes here - resize it here --->
+    <nav> <!-- navigation--->
+      <ul>  
+      <li><a href="index.html">COURSES</a></li> <!--li list / remember href="link" <--- to add link to another page >--> 
+        <li><a href="form.html">BOOKINGS</a></li>
+        <li><a href="consul.html">CONSULTANT</a></li>
+        <li class="last"><a href="faq.html">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+</div>
+
+<!--content -->
+<div class="wrapper row2">
+  <div id="container" class="clear"> 
+    
+    <!--main content -->
+
+
+        <article class="three_third"> <!--link to stylesheet - lastbox so it knows its at the end of the page ---> 
+          <h2>Have a question about our training courses?</h2> <!--header name--->
+          <p>
+<br>
+<br><h2>Q1. Where can I complete you training courses? </h2>
+<br>
+<br>A. We offer 2 options; we offer on-site training or we can host delegates to include refreshments and food each day – contact us to discuss your requirements.
+<br>
+<br><h2>Q. How many delegates can be catered for? </h2>
+<br>
+<br>A. Typically between 6 and 12 participants.
+<br>
+<br>
+<br><h2>Q. Can you cater for a short notice training requirement?</h2>
+<br>
+<br>A. We aim to be as flexible as practical to satisfy your requirements, this includes training over a weekend.
+<br>
+<br><h2>Q. What is the cost of a training course? </h2>
+<br>
+<br>
+A. We believe we offer excellent value for money and are highly competitive, each training course cost will be calculated based on your exacting requirements. A prompt reply will be provided to any quick training quote enquiry.
+ </p> <!---paragraph--->
+         
+        </article>
+      </section>
+
+
+
+<a href="#header" onclick="topFunction()" id="myBtn" title="Go to top">Top</a>
+
+
+
+
+
+ 		
+  </div>
+</div>
+
+<!-- Footer -->
+
+<div class="wrapper row3">
+	
+  <footer id="footer" class="clear">
+    <p class="fl_left">Evolution Training and Coaching - All Rights Reserved </p> <!--<p></p> paragraph---> 
+   
+  </footer>
+  
+</div>
+</body>
+</html>
